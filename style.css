@@ -1,6 +1,6 @@
 .header {
   background-color: white;
-  text-align: left;
+  text-align: center;
   padding: 20px;
 }
 
@@ -10,15 +10,17 @@
     margin: 0;
     padding: 0;
     text-align: center;
+    align-content: center;
     overflow: hidden;
+    display: inline-block;
     /*background-color: #6fc475;*/
-    font-family: roboto;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* topnav links */
 .topnav a {
   float: left;
-  display: block;
+  display: inline-block;
   color: black;
   text-align: center;
   padding: 14px 16px;
@@ -29,6 +31,8 @@
 .topnav a:hover {
   background-color: black;
   color: white;
+  text-align: center;
+  display: inline-block;
 }
 
 /* Clear floats after the columns */
@@ -137,7 +141,13 @@ text-align: right;
 
 h1 {
   color: black;
-  font-family: roboto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 
 h3 {
@@ -146,7 +156,28 @@ text-align: center;
 margin-left: auto;
 margin-right: auto;
 width:50%;
-font-family: roboto;
+font-family: 'Montserrat', sans-serif;
+
+}
+
+h4 {
+color: black;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+width:50%;
+font-family: 'Montserrat', sans-serif;
+font-size: 16px;
+}
+
+h5 {
+color: black;
+text-align: left;
+margin-left: auto;
+margin-right: auto;
+width:50%;
+font-family: 'Montserrat', sans-serif;
+font-size: 6px;
 }
 
 #Image {
@@ -172,9 +203,9 @@ div.Title {
 }
 
 p {
-     font-family: roboto-light;
-    font-size: 20px;
-    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-align: left;
     padding: 80px;
 }
 
